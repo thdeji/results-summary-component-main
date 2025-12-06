@@ -8,7 +8,7 @@ function Index() {
   return (
     <div
       className="flex flex-col gap-4
-    lg:flex-row"
+    lg:flex-row md:flex-row"
     >
       <div className="basis-1/2 bg-linear-to-b from-LightSlateBlue to-LightRoyalBlue rounded-2xl py-8 px-4 flex flex-col items-center gap-4 text-center font-hanken">
         <div className="text-Light-lavender font-hanken-medium text-xl">
