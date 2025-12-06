@@ -1,0 +1,36 @@
+@font-face {
+    font-family: hankenGrotesk;
+    font-style: normal;
+    src: url('./fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: hankenGrotesk-Medium;
+    font-style: normal;
+    src: url(./fonts/static/HankenGrotesk-Medium.ttf);
+}
+@font-face {
+    font-family: hankenGrotesk-Extrabold;
+    font-style: normal;
+    src: url(./fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
+@font-face {
+    font-family: hankenGrotesk-Bold;
+    font-style: normal;
+    src: url(./fonts/static/HankenGrotesk-Bold.ttf);
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-hanken: 'hankenGrotesk';
+    --font-hanken-medium: 'hankenGrotesk-Medium';
+    --font-hanken-bold: 'hankenGrotesk-Bold';
+    --font-hanken-extrabold: 'hankenGrotesk-Extrabold';
+    --color-LightSlateBlue: hsl(252, 100%, 67%);
+    --color-LightRoyalBlue: hsl(241, 81%, 54%);
+    --color-VioletBlue: hsla(256, 72%, 46%, 1);
+    --color-PersianBlue: hsla(241, 72%, 46%, 0);
+    --color-Pale-blue: hsl(221, 100%, 96%);
+    --color-Light-lavender: hsl(241, 100%, 89%);
+    --color-Dark-gray-blue: hsl(224, 30%, 27%);
+}
